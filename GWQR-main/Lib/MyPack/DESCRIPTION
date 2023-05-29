@@ -1,0 +1,29 @@
+Package: LLQR
+Title: The Local Linear Quantile Regression
+Version: 0.0.0.1000
+Description: A code of Local Linear Quantile Regression and some basic functions,it will be updated to solve the GWQR Model at soon. 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Authors: c(
+    person(given = "Hou",
+           family = "Jian",
+           role = c("aut", "cre"),
+           email = "houjian1997@ruc.edu.cn",
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+    person(given = "Hu",
+           family = "Jing",
+           role = "aut",
+           email = "hujing1997@ruc.edu.cn"))
+    person(given = "Cheng",
+           family = "Shuo",
+           role = "aut",
+           email = Chengshuo1998@ruc.edu.cn"))
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+LinkingTo: Rcpp, RcppArmadillo
+Imports: Rcpp, RcppArmadillo
+RoxygenNote: 7.2.1
+Depends: quantreg, lava, sp, R(>= 4.1.0)
+Suggests: cqrReg
+usethis: :use_package("quantreg")
+LazyData: true
