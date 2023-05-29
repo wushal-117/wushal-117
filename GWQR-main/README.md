@@ -1,3 +1,9 @@
+---
+# 其他文件头部信息...
+
+path: README.md
+---
+
 # README	
 
 ​		**本项目在github作者[MakiNaruto](https://github.com/MakiNaruto)的GWAR代码基础上进行了修改，但最终还是没能完全运行，详情接着往下看。**
